@@ -125,3 +125,12 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+# Added lines based on instructions from homework
+/node_modules
+
+npm-debug.log
+
+.DS_Store
+
+/*.env

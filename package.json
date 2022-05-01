@@ -4,7 +4,9 @@
   "description": "little tiers",
   "main": "http_server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npm install",
+    "start": "node http_server.js",
   },
   "repository": {
     "type": "git",
@@ -14,6 +16,11 @@
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/kogsio/littletiers/issues"
+  },
+  "engines": {
+
+    "node": "14.x"
+
   },
   "homepage": "https://github.com/kogsio/littletiers#readme",
   "dependencies": {
